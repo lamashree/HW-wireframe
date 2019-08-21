@@ -1,0 +1,89 @@
+/*
+clearfix
+*/
+
+body {
+	font-family: arial, helvetica Neue, helvetica, sans-serif;
+	columns: #777;
+	background: #777;
+	font-size: 18px;
+}
+
+.container{
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    width: 960px;
+  }
+
+header {
+	background: #ebebeb;
+	text-align: center;
+	padding: 10px;
+	height: 40PX;
+	padding: 20px;
+}
+
+nav {
+	background: #ebebeb;
+	text-align: center;
+	height: 40px;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+aside {
+	background: #ebebeb;
+	text-align: center;
+	float: right;
+	height: 322px;
+	margin-top: 30px;
+	width: 350px;
+	padding: 20px;
+    margin-left: 0 1.5%;
+
+}
+
+section {
+	background: #ebebeb;
+	text-align: center;
+	width: 495px;
+	float: left;
+	height: 300px;
+	padding: 30px;
+	margin-top: 30px;
+	margin-right: 1.5%;
+}
+
+article {
+	background: #777;
+	padding: 30px;
+    color: #ebebeb;
+    margin-top: 30px;
+}
+
+h1 {
+	color: #777;
+    background: #ebebeb;
+    padding: 20px;
+}
+
+p {
+	color: #777;
+    background: #ebebeb;
+    padding: 20px;
+}
+
+footer {
+	background: #ebebeb;
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.clearfix::after {
+	content: " ";
+	clear: both;
+	display: block;
+}
